@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>קופת גן</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a href="#/" class="brand">קופת גן</a>
+      <nav id="nav" hidden>
+        <a href="#/">גנים</a>
+        <a href="#/simulator">סימולטור טלפון</a>
+        <a href="#/log">יומן</a>
+        <a href="#/settings">הגדרות</a>
+        <button id="logout" class="link">יציאה</button>
+      </nav>
+    </header>
+    <div id="callstatus" class="callstatus" hidden></div>
+    <main id="view"></main>
+    <div id="toast" class="toast" hidden></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
